@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let hargaBarang = prompt('masukan jumlah harga = ')
+        hBarang = parseInt(hargaBarang);
+        hasil1 = hBarang*10/100;
+        hasil2 = hBarang*15/100;
+
+        if(hargaBarang >= 500000 && hargaBarang <= 15000000){
+            document.write("selamat anda dapat dsikon sebesar = " + hasil1)
+        }if(hargaBarang >= 15000000){
+            document.write("selamat anda dapat dsikon sebesar = " + hasil2)
+        }
+
+    </script>
+</body>
+</html>
